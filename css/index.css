@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+body{
+    background-color: rgba(126,76,20,0.36);
+}
+
+.header{
+    position: sticky;
+    top:0;
+    z-index: 1;
+    height:100px;
+    background-color:#232323;
+}
+
+
+
+
+.bg_header P {
+    position:absolute;
+    top:50px;   
+    left:50px;
+    font-size:80px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.title{
+    font-size: 35px;
+    text-align:center;
+}
+
+.pic{
+    float:left;
+}
+
+
+
+
+
+
