@@ -3,16 +3,67 @@ body{
     background-color: rgba(126,76,20,0.36);
 }
 
+#menu2{
+    position:fixed;
+    top: -85px;
+    right: -280px;
+    width: 300px;
+    padding-top: 4em;
+    transform-origin: 0 0;
+    transform: rotate(35deg) translate(-92px, 22px);
+    background-color: whiteSmoke;
+    text-align: center;
+    z-index: 0;
+    
+}
+
+#menu2 a{
+    display:block;
+    color:#606060;
+    text-decoration: none;
+}
+
+#menu2 a:hover{
+    background-color: #8F8F8F;
+     color:#ebebeb;
+}
+
+
+
+
 .header{
-    position: sticky;
+    position: relative;
     top:0;
     z-index: 1;
     height:100px;
     background-color:#232323;
 }
 
+ .menu{
+    position:absolute;
+    top:35px;   
+    right:60px;
+    font-size:20px;
+}
 
+  .menu a{
+       text-decoration: none;
+       margin: 0 40px;
+       color: #ebebeb;
+}
+  
+   a:visited {
+    color:#ebebeb; /* колір відвідуваних силок */
+}
+  
+  
+   a:hover{
+       color:#606060;
+}
 
+.bg_header img{
+    height:749px;
+}
 
 .bg_header P {
     position:absolute;
@@ -27,9 +78,33 @@ body{
     text-align:center;
 }
 
-.pic{
-    float:left;
+.title_level_2{
+    font-size: 20px;
+    text-align:center;
 }
+
+.pic{
+    float: left;
+}
+
+
+
+
+
+
+.contact p:nth-child(2){
+    float:left;
+    margin:0 auto;
+}
+
+.contact img{
+    margin:0 auto;
+}
+
+form label{
+    margin-left: 350;
+}
+
 
 
 
